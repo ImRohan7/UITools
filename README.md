@@ -8,3 +8,10 @@ https://rohanpatel1899.wixsite.com/portfolio/systemswriteup
 
 Please write to me here for any feedback or help: 
 rohanpatel1899@gmail.com
+
+======================================================================================================
+Folder structure
+
+root/Content: having game content files such as shaders, LUA files for geometry and effects
+root/Engine/UserInterface: coontains main project files for UI Tools
+root/Tools/UIAssetBuilder: Contains asset builder files for reading LUA files and writing them to binaary.
