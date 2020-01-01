@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="UISystem.cpp" />
+    <ClCompile Include="Items\ProgressBar.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\UIGeometry.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\UIGeometry.d3d.cpp">
+      <Filter>Geometry\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\UIGeometry.gl.cpp">
+      <Filter>Geometry\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="Items\Mask.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UISystem.h" />
+    <ClInclude Include="Items\Panel.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Items\ProgressBar.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Items\Widget.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\UIGeometry.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Items\Mask.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{0d1255c5-82fd-490e-b5fb-9b97fd2ac3b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Direct3D">
+      <UniqueIdentifier>{6b054284-830d-41cb-bdea-3a1082ac8f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\OpenGl">
+      <UniqueIdentifier>{d2a05acf-251c-435d-8fdc-7e94ea40c0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{fbfca295-01db-47b8-ac9a-c73d6bc86ac3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
